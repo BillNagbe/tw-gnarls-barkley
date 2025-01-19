@@ -7,28 +7,29 @@
     <title>Gnarls Barkley</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="">
+<body class="h-screen w-screen grid grid-cols-3 overflow-auto">
     <!-- Header -->
-    <header>
-        <h1 class="">The Duo Gnarls Barkley</h1>
+    <header class="block w-full col-start-1 col-end-4 row-span-1 z-10 top-0 left-0 right-0 rounded-sm bg-cyan-900">
+        <h1 class="text-4xl text-center p-4 bold font-mono text-white underline">The Duo Gnarls Barkley</h1>
     </header>
-    <!-- Side bar -->
-    <aside>
-        <nav>
-            <ul>
-                <li><a href="https://en.wikipedia.org/wiki/Gnarls_Barkley">About the Group</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/CeeLo_Green">CeeLo Green</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Danger_Mouse_(musician)">Danger Mouse</a></li>
-                <li><a href="#">Shop</a></li>
+
+     <!-- Side bar -->
+     <aside class="h-screen col-start-1 col-end-1 relative bg-cyan-900">
+        <nav class=" h-1/2 absolute top-0 left-0 right-0 bottom-0 m-auto flex justify-center items-center">
+            <ul class="flex flex-col items-center justify-center  p-10 gap-5 h-max text-white text-lg">
+                <li><a href="https://en.wikipedia.org/wiki/Gnarls_Barkley" class="hover:underline">About the Group</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/CeeLo_Green" class="hover:underline">CeeLo Green</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Danger_Mouse_(musician)" class="hover:underline">Danger Mouse</a></li>
+                <li><a href="#" class="hover:underline">Shop</a></li>
             </ul>
         </nav>
     </aside>
     <!-- Main content -->
-     <main>
+     <main class=" col-start-2 col-span-2 outline h-screen overflow-scroll p-2">
             <div>
-                <div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gnarls_Barkley.jpg/574px-Gnarls_Barkley.jpg" alt="">
-                <h2>The creation of Gnarls Barkley</h2>
+                <div class="flex w-fit justify-around items-center gap-4">
+                    <img class="min-w-40 min-h-40 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gnarls_Barkley.jpg/574px-Gnarls_Barkley.jpg" alt="">
+                <h3 class="text-lg whitespace-nowrap">The creation of Gnarls Barkley</h3>
                 </div>
                 <!-- CeeLo Green -->
                 <div>
