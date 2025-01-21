@@ -7,57 +7,25 @@
     <title>Gnarls Barkley</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="h-screen w-screen grid grid-cols-3 overflow-auto">
-    <!-- Header -->
-    <header class="block w-full col-start-1 col-end-4 row-span-1 z-10 top-0 left-0 right-0 rounded-sm bg-cyan-900">
-        <h1 class="text-4xl text-center p-4 bold font-mono text-white underline">The Duo Gnarls Barkley</h1>
-    </header>
-
-     <!-- Side bar -->
-     <aside class="h-screen col-start-1 col-end-1 relative bg-cyan-900">
-        <nav class=" h-1/2 absolute top-0 left-0 right-0 bottom-0 m-auto flex justify-center items-center">
-            <ul class="flex flex-col items-center justify-center  p-10 gap-5 h-max text-white text-lg">
-                <li><a href="https://en.wikipedia.org/wiki/Gnarls_Barkley" class="hover:underline">About the Group</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/CeeLo_Green" class="hover:underline">CeeLo Green</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Danger_Mouse_(musician)" class="hover:underline">Danger Mouse</a></li>
-                <li><a href="#" class="hover:underline">Shop</a></li>
+<body class="h-screen w-screen grid grid-rows-6  bg-slate-900 text-white text-base">
+    <header class=" h-fit row-start-1 row-end-1 flex flex-col md:flex-row md:justify-around md:p-4 md:items-center">
+        <div class="hidden h-fit w-fit md:w-1/4 md:h-auto  md:flex md:justify-center md:items-center">
+            <i class="fa-solid fa-record-vinyl"></i>
+        </div>
+        <nav class="self-center p-3 text-center md:w-3/4 lg:w-3/4 xl:w-3/4 mx-auto my-0">
+            <ul class="flex flex-col md:flex-row md:justify-between p-2">
+                <li class="pb-1"><a class="hover:underline hover:transition" href="">CeeLo Green</a></li>
+                <li class="pb-1"><a class="hover:underline hover:transition" href="">Danger Mouse</a></li>
+                <li class="pb-1"><a class="hover:underline hover:transition" href="">About Us</a></li>
+                <li class="pb-1"><a class="hover:underline hover:transition" href="">Shop</a></li>
             </ul>
         </nav>
-    </aside>
-    <!-- Main content -->
-     <main class=" col-start-2 col-span-2 outline h-screen overflow-scroll p-2">
-            <div>
-                <div class="flex w-fit justify-around items-center gap-4">
-                    <img class="min-w-40 min-h-40 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Gnarls_Barkley.jpg/574px-Gnarls_Barkley.jpg" alt="">
-                <h3 class="text-lg whitespace-nowrap">The creation of Gnarls Barkley</h3>
-                </div>
-                <!-- CeeLo Green -->
-                <div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/CeeLo_Green_at_Rachel_Ray%27s_Feedback_Party_SXSW_2014--8_%2815766604448%29.jpg/440px-CeeLo_Green_at_Rachel_Ray%27s_Feedback_Party_SXSW_2014--8_%2815766604448%29.jpg" alt="CeeLo_Green 2014">
-                    <h4>CeeLo Green</h4>
-
-                <p>CeeLo Green, spent years with the rap duo Goodie Mob, and associating acts like Outkast, and Dungeon Family.
-                    Green, born Thomas Decarlo Callaway-Burton. In Atlanta, Georgia. Green started his career in the early ninties, he released three albums with the group Goodie Mob, before leaving to purse a solo career.
-                    He would release two solo albums that did okay, but did not reach the commercial success he once had.
-                    After putting out two albums with Danger Mouse(Gnarls Barkley), he would continue his solo career and see his greatest commercial success with his third album The Lady Killer.
-                    His most success single would be "Fuck You", released in 2010. The song would peak at two on the billboard Hot 100, Green has since had a success tv career as a judge on the hit tv show the Voice.
-                </p>
-                </div>
-
-                <!-- Danger Mouse -->
-                 <div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Danger_Mouse_with_Broken_Bells_2010.jpg/600px-Danger_Mouse_with_Broken_Bells_2010.jpg" alt="Danger Mouse 2010">
-                    <h4>Danger Mouse</h4>
-                    <p>Danger Mouse, born Brian Joseph Burton in New York. Mouse would later move to Georgia, and going to school at the University of Georgia. While in college he was introduced to Pink Floyd, Portished, and Nirvana. He was introduced into the indie music scence while in college.
-                    In 2004, he came to prominence with the Gray Album, which was vocals from J-zay's black album and instrumentals from the Beatle's White album. Since then he has formed the group Gnarls Barkley with fellow Georgian CeeLo Green and Broken Bells with indie rocker James Mercer, produced albums for Gorillaz, the Chilli Peppers, The Black Keys, and ASAP Rocky.    
-                    </p>
-                 </div>
-            </div>
-
-            <div>
-                <h3>A brilliant Name</h3>
-                <p>The band name Gnarls Barkley, was created while Danger Mouse was playinga a name of fake celebrity names. When he said the name out load he knew it was a right and wrote it down on a piece of paper. The band name has nothing to do with the basketball player Charles Barkley.</p>
-            </div>
-     </main>
+    </header>
+    <main class=" outline mt-9 row-start-2 row-end-7 w-screen block md:grid md:grid-cols-6 md:gap-4">
+        <div class="hidden md:inline-block md:col-start-1 md:col-end-2 outline">
+            
+        </div>
+        <div class="outline block md:col-start-2 md:col-end-7 md:overflow-scroll"></div>
+    </main>
 </body>
 </html>
